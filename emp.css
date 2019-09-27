@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: rgb(226,238,174);
+    background: linear-gradient(176deg, rgba(226,238,174,1) 0%, rgba(148,221,233,1) 100%);
+    font-family: 'Satisfy', cursive;
+    color: black;
+    font-size: 16px;
+}
+.face{
+    border-radius: 40%;
+    height: 400px;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    opacity: 1;
+    transition: .5s ease-in;
+}
+.face:hover{
+    opacity: 0.4;
+}
+h1{
+    text-align: center;
+    font-size: 600%;
+    margin: 2% 5%;
+}
+h2{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 2%;
+
+}
+.pocket1{
+    text-align: left;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 2px solid teal;
+    border-radius: 10%;
+    padding: 5%;
+    animation: slideInLeft 6s 1s;
+}
+.pocket2{
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 55%;
+    position: absolute;
+    border: 2px solid teal;
+    border-radius: 10%;
+    padding: 5%;
+    animation: slideInRight 6s 1s;
+}
+footer{
+    margin-bottom: 0;
+}
