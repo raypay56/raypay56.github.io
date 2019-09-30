@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 6%;
+    widows: 100%;
+    background-color: rgb(43, 153, 226)
+}
+.searchbar{
+    margin-left: 37%;
+    width: 300px;
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.search{
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10px;
+}
+.vote{
+    margin-left: 25%;
+    display: inline;
+}
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+    background-color: white;
+    display: inline-block;
+}
+.counter{
+    padding: 5px;
+    margin-left:26%;
+    font-size: 30px;
+    display: inline-block;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #555;
+    background-color: white;
+    display: inline-block;
+}
+.card{
+    width: 280px;
+    height: 250px;
+    margin-left: 40%;
+    padding: 15px; 
+    background-color: white;
+    display: inline;
+}
+img{
+    height: 160px;
+    width: 280px;
+    border:1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    display: inline-block;
+    
+    position: absolute;
+}
+.container{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 280px;
+}
+p{
+    color: rgb(182, 177, 177);
+}
+a{
+    text-decoration: none;
+
+}
